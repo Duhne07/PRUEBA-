@@ -1,0 +1,20 @@
+header>h1{
+    border-bottom:blue;
+}
+header>h2{
+    border-style: groove;
+}
+header>ul{
+    border-bottom: 5px dotted red;
+    border-top: 5px doted red;
+}
+article>h2{
+    border-style: groove;
+}
+footer>h2{
+    border-style: groove;
+}
+
+footer>ul {
+    border: 5px dotted green
+}
