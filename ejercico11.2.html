@@ -10,10 +10,7 @@
     flex-direction: row;
     margin: 0;
   }
-  .col-1 {
-    background: #D7E8D4;
-    flex: 1;
-  }
+   
   .col-2 {
     display: flex;
     flex-direction: column;
@@ -28,25 +25,36 @@
     min-height: 60vh;
   }
   .content > aside {
-    background: beige;
-    flex: 1;
+    background: rgb(170, 29, 29);
+    flex: 3;
   }
   header, footer {
     background: yellowgreen;
     height: 20vh;
   }
-  header, footer, article, nav, aside {
+  header, footer, article, aside {
     padding: 1em;
   }
 </style>
 <body>
-  <nav class="col-1">Nav</nav>
+
   <div class="col-2">
-  	<header>Header</header>
+  	<header>que es felxbox</header>
     <main class="content">
-    <article>Article</article>
-    <aside>Aside</aside>
+    <article><img src="imagenes/felxbox.png" alt="">
+    <P>Diseño de Caja Flexible, comúnmente conocido como Flexbox, 
+      ​ es un modelo de diseño CSS3.​ Está en la etapa de recomendación 
+      de candidatos del W3C.​</P>
+    </article>
+    <aside><img src="imagenes/grid.png" alt="">
+    <p>CSS grid layout o CSS grid es una técnica de las Hojas de 
+      Estilo en Cascada que permite a los desarrolladores web crear
+       diseños complejos y adaptables con mayor facilidad en todos 
+       los navegadores</p></aside>
     </main>
-  	<footer>Footer</footer>
+  	<footer>Footer
+      <P>https://www.freecodecamp.org/news/how-to-use-css-grid-layout/</P>
+      <P>https://codeburst.io/flexbox-building-a-navigation-part-2-2-6cc58b9d4173?gi=ef9aba947c60</P>
+    </footer>
   </div>
 </body>
